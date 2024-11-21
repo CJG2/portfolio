@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const jsonFilePath = './../../datas/projects.json';
+    const jsonFilePath = './../datas/projects.json';
     let currentProjectIndex = 0;
     let projects = []; // Stocke les projets une fois chargés
 

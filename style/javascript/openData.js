@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const phrase = createElement('div', 'project-lang-phrase', 'Langages utilisés :');
         project.langages.forEach(lang => {
             const langImg = createElement('img', 'project-langage');
-            langImg.src = "./../../media/img/logos/" + lang.langage;
+            langImg.src = "./media/img/logos/" + lang.langage;
             languagesDiv.appendChild(langImg);
         });
         modalContent.appendChild(phrase);

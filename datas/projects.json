@@ -10,7 +10,7 @@
         "dateDebut" : "2023-10",
         "dateFin" : "2024-01",
         "langages" : [
-            {"langage" : "./../media/img/photo.JPG"},
+            {"langage" : "./../portfolio/media/img/photo.JPG"},
             {"langage" : "./../media/img/logos/html_logo.png"},
             {"langage" : "./../media/img/logos/css_logo.png"},
             {"langage" : "./../media/img/logos/bash_logo.png"}

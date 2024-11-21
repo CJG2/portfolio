@@ -50,12 +50,12 @@ document.addEventListener("DOMContentLoaded", function() {
         // Ajouter l'annexe si elle existe (vidéo ou image)
         if (project.typeAnnexe === 'video') {
             const video = createElement('video', 'project-annex');
-            video.src = project.annexe;
+            video.src = "./media/video/" + project.annexe;
             video.controls = true;
             modalContent.appendChild(video);
         } else if (project.typeAnnexe === 'img') {
             const img = createElement('img', 'project-annex');
-            img.src = project.annexe;
+            img.src = "./media/img/screenshots/" + project.annexe;
             modalContent.appendChild(img);
         }
     

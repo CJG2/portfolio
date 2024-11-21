@@ -10,10 +10,10 @@
         "dateDebut" : "2023-10",
         "dateFin" : "2024-01",
         "langages" : [
-            {"langage" : "./../media/img/logos/c++_logo.png"},
-            {"langage" : "./../media/img/logos/html_logo.png"},
-            {"langage" : "./../media/img/logos/css_logo.png"},
-            {"langage" : "./../media/img/logos/bash_logo.png"}
+            {"langage" : "c++_logo.png"},
+            {"langage" : "html_logo.png"},
+            {"langage" : "css_logo.png"},
+            {"langage" : "bash_logo.png"}
         ],
         "problemes" : [
             {  
@@ -41,10 +41,10 @@
         "dateDebut" : "2023-12",
         "dateFin" : "2024-07",
         "langages" : [
-            {"langage" : "./../media/img/logos/html_logo.png"},
-            {"langage" : "./../media/img/logos/css_logo.png"},
-            {"langage" : "./../media/img/logos/javascript_logo.png"},
-            {"langage" : "./../media/img/logos/json_logo.png"}
+            {"langage" : "html_logo.png"},
+            {"langage" : "css_logo.png"},
+            {"langage" : "javascript_logo.png"},
+            {"langage" : "json_logo.png"}
         ],
         "problemes" : [
             {
@@ -76,10 +76,10 @@
         "dateDebut" : "2024-04",
         "dateFin" : "2024-06",
         "langages" : [
-            {"langage" : "./../media/img/logos/c++_logo.png"},
-            {"langage" : "./../media/img/logos/Qt_logo.png"},
-            {"langage" : "./../media/img/logos/json_logo.png"},
-            {"langage" : "./../media/img/logos/xml_logo.png"}
+            {"langage" : "c++_logo.png"},
+            {"langage" : "Qt_logo.png"},
+            {"langage" : "json_logo.png"},
+            {"langage" : "xml_logo.png"}
         ],
         "problemes" : [
             {  
@@ -103,9 +103,9 @@
         "dateDebut" : "2024-09",
         "dateFin" : "2024-10",
         "langages" : [
-            {"langage" : "./../media/img/logos/html_logo.png"},
-            {"langage" : "./../media/img/logos/css_logo.png"},
-            {"langage" : "./../media/img/logos/javascript_logo.png"}
+            {"langage" : "html_logo.png"},
+            {"langage" : "css_logo.png"},
+            {"langage" : "javascript_logo.png"}
         ],
         "problemes" : [
             {  

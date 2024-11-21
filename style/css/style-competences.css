@@ -1,0 +1,170 @@
+/* COMPETENCES ------------------------------------------*/
+
+.comp-table{  
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.exp-lang{  
+    display: none;
+}
+
+.logos{  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logos td{  
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logos img{  
+    max-width: 90px;
+    padding: 20px 20px 5px;
+}
+
+.logos img:hover{  
+    transform: scale(1.1);
+    filter: drop-shadow(5px 5px 4px #999);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.logos td p{  
+    margin: 0 0 10px ;
+    text-align: center;
+}
+
+.description-block img {
+    width: 90px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.description-block p {
+    margin: 0;
+    color: #333;
+}
+
+.description-block p .languages-names-highlights{
+    font-weight: 500;
+    color: #0ac219;
+}
+
+.jauge-competences{  
+    margin: auto;
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 70%;
+}
+
+.jauge {  
+    width: 100%;
+    height: 15px;
+    background-color: #f0f0f0;
+}
+
+.remplissage {  
+    height: 100%;
+}
+
+.nom-competences {  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #333;
+}
+
+.nom-competences h4{  
+    width: 20%;
+    margin: 15px 0;
+}
+
+.last-jauge{  
+    border: 1px solid #fff;
+}
+
+/* Ajout des styles pour le bloc de description du langage */
+
+.description-block {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px auto 20px;
+    width: 70%;
+    max-width: 800px;
+}
+
+.image-description-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.image-description-container img {
+    width: 90px; /* Taille du logo */
+    height: auto;
+    margin-right: 15px;
+}
+
+.description-text {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Niveau et jauge pour les langages */
+.level-text {
+    text-align: left;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.gauge-container {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.gauge {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.gauge-fill {
+    height: 100%;
+    background-color: #0ac219;
+    width: 0;
+    transition: width 0.5s ease;
+}
+
+.info-button {
+    background-color: #007bff; 
+    color: white; 
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    width: 20px; 
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#divForInformation {
+    display: flex;
+    align-items: center;
+}

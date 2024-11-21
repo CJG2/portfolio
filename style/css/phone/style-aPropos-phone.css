@@ -1,0 +1,54 @@
+@media (max-width: 650px) {
+    .a-propos{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .myself{  
+        width: 50%;
+        margin: 20px auto;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px #0000002e;
+    }
+
+    .presentation{ 
+        padding: 20px;
+    }
+    
+    .nom{ 
+        font-size: 37px;
+    }
+    
+    .prenom { 
+        font-size: 31px;
+    }
+    
+    .age{ 
+        font-size: 25px;
+        margin: 5px 0 15px;
+    }
+    
+    .description{ 
+        font-size: 21px;
+    }
+
+    .quality{ 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .quality li{ 
+        font-size: 17px;
+        margin: 5px;
+        height: 25px;
+        width: 85px;
+        padding: 10px;
+    }
+
+    #CV_download {
+        display: flex;
+        margin:auto;
+    }
+
+}

@@ -1,0 +1,88 @@
+/* A PROPOS --------------------------------------------*/
+
+.a-propos{ 
+    display: flex;
+}
+
+.myself{  
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: auto;
+    border-radius: 100px;
+}
+
+.presentation{ 
+    padding: 30px;
+}
+
+.nom{ 
+    margin: 0;
+    font-size: 250%;
+    color: #0ac219;
+}
+
+.prenom{ 
+    margin: 0 ;
+    font-size: 200%;
+}
+
+.age{ 
+    font-size: 140%;
+    margin: 5px 0 15px;
+}
+
+.description{ 
+    margin: 0;
+    font-size: 110%;
+}
+
+.quality{ 
+    margin: 10px 0px 45px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quality li{ 
+    padding: 7px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.quality li:hover{ 
+    border: 3px solid #0ac219;
+    transform: scale(1.1);
+    margin: auto 5px;
+    box-shadow: 2px 2px 4px rgba(10, 194, 25, 0.5);
+    transition: 0.4s;
+}
+
+#CV_download {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #0ac219;
+    color: #fff;
+    font-size: larger;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+#CV_download img {
+    width: 25px;
+    margin-left: 5px;
+}
+
+#CV_download:hover {
+    background-color: #077710;
+}

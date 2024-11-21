@@ -1,0 +1,156 @@
+/* PORTFOLIO ---------------------------------------------*/
+
+.project-name {   
+    color: #0ac219;
+    font-size: 150%;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.project-type, .project-description {
+    margin: 10px 0;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 30px;
+}
+
+.project-button {
+    display: block;
+    width: 300px; 
+    font-size: 20px; 
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0ac219;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    text-align: left;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.project-button:hover {
+    background-color: #077710;
+    flex: 3;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.project-lang-phrase{
+    margin: 20px 0 10px 0;
+}
+
+.project-languages img {
+    width: 6%; 
+    height: 6%; 
+    margin: 10px;
+}
+
+.project-annex {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.project-problems {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.project-problems td {
+    padding: 10px;
+    border: 1px solid #777;
+    text-align: left;
+}
+
+.problem-cell {
+    font-weight: bold;
+    background-color: #c20a0a1c;
+}
+
+.solution-cell {
+    font-style: italic;
+    background-color: #0ac2191c;
+}
+
+.project-link {
+    width: fit-content;
+    display: block; 
+    margin: 15px auto;
+    background-color: #0ac219;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.project-link:hover {
+    background-color: #077710;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.modal-content {
+    background-color: #f4f4f4;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.modal-close {
+    position: absolute;  
+    top: 10px;
+    right: 20px;
+    color: #aaa;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-close:hover, .modal-close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-nav {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.nav-button {
+    margin: 10px;
+    padding: 15px;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav-button:hover{
+    border: 2px solid #0ac219;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+

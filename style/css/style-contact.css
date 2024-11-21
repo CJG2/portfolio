@@ -1,0 +1,35 @@
+/* CONTACT ----------------------------------------------*/
+
+.contact-table{   
+    margin: 40px auto; 
+}
+
+.contact-table tbody{   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-table tbody td{   
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #0ac219;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.img-contact{   
+    width: 50px;
+}
+
+.contact-table tbody td p, .contact-table tbody td a{   
+    margin-left: 10px;
+    color: #333;
+}
+
+.contact-table tbody td:hover{   
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+

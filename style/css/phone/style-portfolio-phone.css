@@ -1,0 +1,78 @@
+@media (max-width: 750px) {
+    .project-button {
+        width: 100%; 
+        height: fit-content;
+        font-size: 18px;
+        border-radius: 10px; 
+        padding: 15px;
+    }
+
+    #portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .project-name {   
+        font-size: 140%;
+        text-align: left;
+        margin: 10px auto 20px
+    }
+    
+    .project-type, .project-description {
+        font-size: 17px;
+        margin: 10px 0;
+    }
+    
+    .portfolio-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        margin: 30px;
+    }
+
+    .project-lang-phrase{
+        margin: 10px 0;
+    }
+
+    .project-languages img {
+        width: 55px; 
+        height: 55px; 
+        margin: 5px;
+    }
+
+    .project-problems {
+        margin-top: 20px;
+    }
+
+    .project-problems td {
+        padding: 7px;
+    }
+
+    .project-link {
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .modal-content {
+        margin: 30px;
+        padding: 15px;
+        width: 80%;
+    }
+
+    .modal-close {
+        top: 20px;
+        right: 30px;
+    }
+
+    .modal-nav {
+        padding: 15px;
+    }
+
+    .nav-button {
+        margin: 10px;
+        padding: 15px;
+        width: 50%;
+    }
+}

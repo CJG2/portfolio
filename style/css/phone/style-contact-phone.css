@@ -1,0 +1,14 @@
+@media (max-width: 750px){
+    .contact-table{   
+        margin: 20px auto; 
+    }
+
+    .contact-table tbody{   
+        flex-direction: column;
+    }
+
+    .contact-table tbody td{ 
+        padding: 10px;
+        justify-content: space-between;
+    }
+}

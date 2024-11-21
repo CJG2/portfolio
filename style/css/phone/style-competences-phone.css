@@ -1,0 +1,52 @@
+@media (max-width: 500px) {
+    .comp-table{  
+        margin: 5px 0;
+    }
+
+    .logos td{  
+        margin-top: 10px;
+    }
+    
+    .logos img{  
+        max-width: 60px;
+        padding: 10px 15px 5px;
+    }
+
+    .logos td p{  
+        margin: 0 0 5px;
+    }
+
+    .description-block {
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px auto 30px;
+        width: 90%;
+    }
+    
+    .description-block img {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    .jauge-competences{ 
+        width: 85%;
+    }
+
+    .nom-competences {  
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .nom-competences h4{  
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .jauge {  
+        width: 100%;
+        height: 20px;
+        background-color: #f0f0f0;
+    }
+}

@@ -5,15 +5,15 @@
         "type" : "SAE",
         "description" : "Le but de cette SAÉ était de créer une sorte d'application de Calendrier dans le terminal. Ce Calendrier devait être codé en C++, elle devait proposer à son démarrage plusieurs choses :\n Regarder si il y avait un Agenda déjà présent dans le dossier actuel.\n Dès son lancement, l'Agenda propose ce menu :\n Afficher les événements présent dans le calendrier\n Renommer un événement\n Ajouter un événement\n Supprimer un événement\n Exporter l'Agenda en HTML\n Enregistrer l'Agenda\n Quitter",
         "lien" : "null",
-        "annexe" : "./media/video/Agenda_video.mp4",
+        "annexe" : "./portfolio/media/video/Agenda_video.mp4",
         "typeAnnexe" : "video",
         "dateDebut" : "2023-10",
         "dateFin" : "2024-01",
         "langages" : [
-            {"langage" : "./media/img/logos/c++_logo.png"},
-            {"langage" : "./media/img/logos/html_logo.png"},
-            {"langage" : "./media/img/logos/css_logo.png"},
-            {"langage" : "./media/img/logos/bash_logo.png"}
+            {"langage" : "./portfolio/media/img/logos/c++_logo.png"},
+            {"langage" : "./portfolio/media/img/logos/html_logo.png"},
+            {"langage" : "./portfolio/media/img/logos/css_logo.png"},
+            {"langage" : "./portfolio/media/img/logos/bash_logo.png"}
         ],
         "problemes" : [
             {  
@@ -36,15 +36,15 @@
         "type" : "Projet Personnel",
         "description" : "Ayant une mère qui confectionne des produits artisanaux, faits mains, j'ai décidé de lui apporter un coup de pouce à ma manière, en lui créant un site internet où l'on pourra voir les différents articles qu'elle propose. \nVoici un lien vers le site internet réalisé.",
         "lien" : "my-little-creations.com",
-        "annexe" : "./media/img/screenshots/Screen_MLC_2.png",
+        "annexe" : "./portfolio/media/img/screenshots/Screen_MLC_2.png",
         "typeAnnexe" : "img",
         "dateDebut" : "2023-12",
         "dateFin" : "2024-07",
         "langages" : [
-            {"langage" : "./media/img/logos/html_logo.png"},
-            {"langage" : "./media/img/logos/css_logo.png"},
-            {"langage" : "./media/img/logos/javascript_logo.png"},
-            {"langage" : "./media/img/logos/json_logo.png"}
+            {"langage" : "./portfolio/media/img/logos/html_logo.png"},
+            {"langage" : "./portfolio/media/img/logos/css_logo.png"},
+            {"langage" : "./portfolio/media/img/logos/javascript_logo.png"},
+            {"langage" : "./portfolio/media/img/logos/json_logo.png"}
         ],
         "problemes" : [
             {
@@ -71,15 +71,15 @@
         "type" : "SAE",
         "description" : "Le but de cette SAÉ était de créer une application en binôme. \n Nous avions dû tirer au sort un sujet, et nous sommes tombés sur les recettes de cuisines. Nous avons eu l'idée de l'appeler \"EZ-Cook\", qui est une référence à une librairie de C++ qui permet d'avoir un interface nommée \"EZ-Draw\", mais aussi car la traduction de ce nom donne \"Cuisine facile\". ",
         "lien" : "null",
-        "annexe" : "./media/video/EZCook_video.mp4",
+        "annexe" : "./portfolio/media/video/EZCook_video.mp4",
         "typeAnnexe" : "video",
         "dateDebut" : "2024-04",
         "dateFin" : "2024-06",
         "langages" : [
-            {"langage" : "./media/img/logos/c++_logo.png"},
-            {"langage" : "./media/img/logos/Qt_logo.png"},
-            {"langage" : "./media/img/logos/json_logo.png"},
-            {"langage" : "./media/img/logos/xml_logo.png"}
+            {"langage" : "./portfolio/media/img/logos/c++_logo.png"},
+            {"langage" : "./portfolio/media/img/logos/Qt_logo.png"},
+            {"langage" : "./portfolio/media/img/logos/json_logo.png"},
+            {"langage" : "./portfolio/media/img/logos/xml_logo.png"}
         ],
         "problemes" : [
             {  
@@ -98,14 +98,14 @@
         "type" : "Exercices - BUT Informatique",
         "description" : "Le but de cet exercice était de créer une application client-riche. Le thème était à notre choix, j'ai donc choisi une application de restaurant. Mon application devait rechercher via une API tous les restaurants de France et afficher les détails.",
         "lien" : "null",
-        "annexe" : "./media/video/EZFood_video.mp4",
+        "annexe" : "./portfolio/media/video/EZFood_video.mp4",
         "typeAnnexe" : "video",
         "dateDebut" : "2024-09",
         "dateFin" : "2024-10",
         "langages" : [
-            {"langage" : "./media/img/logos/html_logo.png"},
-            {"langage" : "./media/img/logos/css_logo.png"},
-            {"langage" : "./media/img/logos/javascript_logo.png"}
+            {"langage" : "./portfolio/media/img/logos/html_logo.png"},
+            {"langage" : "./portfolio/media/img/logos/css_logo.png"},
+            {"langage" : "./portfolio/media/img/logos/javascript_logo.png"}
         ],
         "problemes" : [
             {  

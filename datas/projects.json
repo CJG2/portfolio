@@ -1,116 +1,116 @@
 [
     {
-        "idProject" : 1,
-        "name" : "Agenda sur le Terminal",
-        "type" : "SAE",
-        "description" : "Le but de cette SAÉ était de créer une sorte d'application de Calendrier dans le terminal. Ce Calendrier devait être codé en C++, elle devait proposer à son démarrage plusieurs choses :\n Regarder si il y avait un Agenda déjà présent dans le dossier actuel.\n Dès son lancement, l'Agenda propose ce menu :\n Afficher les événements présent dans le calendrier\n Renommer un événement\n Ajouter un événement\n Supprimer un événement\n Exporter l'Agenda en HTML\n Enregistrer l'Agenda\n Quitter",
-        "lien" : "null",
-        "annexe" : "Agenda_video.mp4",
-        "typeAnnexe" : "video",
-        "dateDebut" : "2023-10",
-        "dateFin" : "2024-01",
-        "langages" : [
-            {"langage" : "c++_logo.png"},
-            {"langage" : "html_logo.png"},
-            {"langage" : "css_logo.png"},
-            {"langage" : "bash_logo.png"}
+        "idProject": 1,
+        "name": "Agenda sur le Terminal",
+        "type": "SAE",
+        "description": "Le but de cette SAÉ était de créer une sorte d'application de calendrier dans le terminal. Ce calendrier devait être codé en C++, et il devait proposer à son démarrage plusieurs fonctionnalités :\n Regarder s'il y avait un agenda déjà présent dans le dossier actuel.\n Dès son lancement, l'agenda propose ce menu :\n Afficher les événements présents dans le calendrier\n Renommer un événement\n Ajouter un événement\n Supprimer un événement\n Exporter l'agenda en HTML\n Enregistrer l'agenda\n Quitter",
+        "lien": null,
+        "annexe": "Agenda_video.mp4",
+        "typeAnnexe": "video",
+        "dateDebut": "2023-10",
+        "dateFin": "2024-01",
+        "langages": [
+            {"langage": "c++_logo.png"},
+            {"langage": "html_logo.png"},
+            {"langage": "css_logo.png"},
+            {"langage": "bash_logo.png"}
         ],
-        "problemes" : [
+        "problemes": [
             {  
-                "probleme" : "Manque de expérience en langages C++",
-                "solution" : "Lisant la documentation, regardant des tutos / cours sur youtube"
+                "probleme": "Manque d'expérience en langage C++",
+                "solution": "Lire la documentation, regarder des tutoriels et des cours sur YouTube"
             },
             {  
-                "probleme" : "Le temps imparti",
-                "solution" : "Si on est mal organisé, le projet était impossible à réaliser, ce n'est pas mon cas !"
+                "probleme": "Le temps imparti",
+                "solution": "Si on est mal organisé, le projet était impossible à réaliser, mais ce n'était pas mon cas !"
             },
             {  
-                "probleme" : "Recommencement du projet à partir de 'rien' ",
-                "solution" : "Ayant énormément d'erreurs, j'ai décider de tout recommencer pour repartir sur de bonne bases"
+                "probleme": "Recommencement du projet à partir de zéro",
+                "solution": "Ayant énormément d'erreurs, j'ai décidé de tout recommencer pour repartir sur de bonnes bases"
             }
         ]
     },  
     {
-        "idProject" : 2,
-        "name" : "Site internet de ventes de produits artisanaux",
-        "type" : "Projet Personnel",
-        "description" : "Ayant une mère qui confectionne des produits artisanaux, faits mains, j'ai décidé de lui apporter un coup de pouce à ma manière, en lui créant un site internet où l'on pourra voir les différents articles qu'elle propose. \nVoici un lien vers le site internet réalisé.",
-        "lien" : "my-little-creations.com",
-        "annexe" : "Screen_MLC_2.png",
-        "typeAnnexe" : "img",
-        "dateDebut" : "2023-12",
-        "dateFin" : "2024-07",
-        "langages" : [
-            {"langage" : "html_logo.png"},
-            {"langage" : "css_logo.png"},
-            {"langage" : "javascript_logo.png"},
-            {"langage" : "json_logo.png"}
+        "idProject": 2,
+        "name": "Site internet de vente de produits artisanaux",
+        "type": "Projet Personnel",
+        "description": "Ayant une mère qui confectionne des produits artisanaux faits main, j'ai décidé de lui apporter un coup de pouce à ma manière, en lui créant un site internet où l'on peut voir les différents articles qu'elle propose. \nVoici un lien vers le site internet réalisé.",
+        "lien": "my-little-creations.com",
+        "annexe": "Screen_MLC_2.png",
+        "typeAnnexe": "img",
+        "dateDebut": "2023-12",
+        "dateFin": "2024-07",
+        "langages": [
+            {"langage": "html_logo.png"},
+            {"langage": "css_logo.png"},
+            {"langage": "javascript_logo.png"},
+            {"langage": "json_logo.png"}
         ],
-        "problemes" : [
+        "problemes": [
             {
-                "probleme" : "Manque de connaissances en JavaScript",
-                "solution" : "Lire la documentation, regardant des tutos / cours sur youtube pour le JavaScript"
+                "probleme": "Manque de connaissances en JavaScript",
+                "solution": "Lire la documentation, regarder des tutoriels et des cours sur YouTube pour le JavaScript"
             },
             {
-                "probleme" : "Manque de temps",
-                "solution" : "Essayer de 'grapiller' du temps libre dont je dispose pour avancer"
+                "probleme": "Manque de temps",
+                "solution": "Essayer de 'grappiller' du temps libre pour avancer"
             },
             {
-                "probleme" : "Créer une Base de Données, afin de gérer les articles (ajouter, supprimer, mettre à jour les informations des articles, etc).",
-                "solution" : "Utilisation du langage JSON pour la base de données."
+                "probleme": "Créer une base de données afin de gérer les articles (ajouter, supprimer, mettre à jour les informations des articles, etc.)",
+                "solution": "Utilisation du langage JSON pour la base de données"
             },
             {
-                "probleme" : "Héberger le site web sur un serveur pour que n'importe quelle personne puisse s'y rendre.",
-                "solution" : "Utilisation de l'hébergeur GitHub Pages qui offre le protocole HTTPS par défaut et totalement gratuit"
+                "probleme": "Héberger le site web sur un serveur pour que n'importe quelle personne puisse s'y rendre",
+                "solution": "Utilisation de l'hébergeur GitHub Pages qui offre le protocole HTTPS par défaut et totalement gratuit"
             }
         ]
     },
     {
-        "idProject" : 3,
-        "name" : "Application de recette de cuisine",
-        "type" : "SAE",
-        "description" : "Le but de cette SAÉ était de créer une application en binôme. \n Nous avions dû tirer au sort un sujet, et nous sommes tombés sur les recettes de cuisines. Nous avons eu l'idée de l'appeler \"EZ-Cook\", qui est une référence à une librairie de C++ qui permet d'avoir un interface nommée \"EZ-Draw\", mais aussi car la traduction de ce nom donne \"Cuisine facile\". ",
-        "lien" : "null",
-        "annexe" : "EZCook_video.mp4",
-        "typeAnnexe" : "video",
-        "dateDebut" : "2024-04",
-        "dateFin" : "2024-06",
-        "langages" : [
-            {"langage" : "c++_logo.png"},
-            {"langage" : "Qt_logo.png"},
-            {"langage" : "json_logo.png"},
-            {"langage" : "xml_logo.png"}
+        "idProject": 3,
+        "name": "Application de recette de cuisine",
+        "type": "SAE",
+        "description": "Le but de cette SAÉ était de créer une application en binôme. \n Nous avons dû tirer au sort un sujet, et nous sommes tombés sur les recettes de cuisine. Nous avons eu l'idée de l'appeler \"EZ-Cook\", qui est une référence à une bibliothèque C++ permettant d'avoir une interface nommée \"EZ-Draw\", mais aussi parce que la traduction de ce nom donne \"Cuisine facile\".",
+        "lien": null,
+        "annexe": "EZCook_video.mp4",
+        "typeAnnexe": "video",
+        "dateDebut": "2024-04",
+        "dateFin": "2024-06",
+        "langages": [
+            {"langage": "c++_logo.png"},
+            {"langage": "Qt_logo.png"},
+            {"langage": "json_logo.png"},
+            {"langage": "xml_logo.png"}
         ],
-        "problemes" : [
+        "problemes": [
             {  
-                "probleme" : "Manque de temps",
-                "solution" : "Nous n'avons pas eu le temps de faire certaines fonctionalités(Traduire l'application en fonction d'une langue, arriver a faire correspondre les recettes cherchés avec les recettes trouvés)"
+                "probleme": "Manque de temps",
+                "solution": "Nous n'avons pas eu le temps de développer certaines fonctionnalités (traduire l'application en fonction d'une langue, faire correspondre les recettes cherchées avec celles trouvées)"
             },
             {  
-                "probleme" : "Git Hub",
-                "solution" : "Mon binôme a eu un problèmes en ajoutant le programme sur notre dépôt Git Hub commun, mais ça ne s'st pas passé comme prévu. Il a eu une erreur lui puis moi, ce qui nous a contraint à devoir refaire un nouveau dépôt Git Hub pour la sauvegarde des fichiers. Heureusement que nous avions quand même pu enregistrer les fichiers manuellement."
+                "probleme": "GitHub",
+                "solution": "Mon binôme a rencontré un problème en ajoutant le programme sur notre dépôt GitHub commun, ce qui ne s'est pas passé comme prévu. Il a eu une erreur, puis moi aussi, ce qui nous a contraints à devoir créer un nouveau dépôt GitHub pour la sauvegarde des fichiers. Heureusement, nous avions quand même pu enregistrer les fichiers manuellement."
             }
         ]
     },
     {
-        "idProject" : 4,
-        "name" : "Application de recherche de restaurant dans une ville",
-        "type" : "Exercices - BUT Informatique",
-        "description" : "Le but de cet exercice était de créer une application client-riche. Le thème était à notre choix, j'ai donc choisi une application de restaurant. Mon application devait rechercher via une API tous les restaurants de France et afficher les détails.",
-        "lien" : "null",
-        "annexe" : "EZFood_video.mp4",
-        "typeAnnexe" : "video",
-        "dateDebut" : "2024-09",
-        "dateFin" : "2024-10",
-        "langages" : [
-            {"langage" : "html_logo.png"},
-            {"langage" : "css_logo.png"},
-            {"langage" : "javascript_logo.png"}
+        "idProject": 4,
+        "name": "Application de recherche de restaurant dans une ville",
+        "type": "Exercice - BUT Informatique",
+        "description": "Le but de cet exercice était de créer une application client-riche. Le thème était au choix, et j'ai choisi une application de restaurant. Mon application devait rechercher via une API tous les restaurants de France et afficher les détails.",
+        "lien": null,
+        "annexe": "EZFood_video.mp4",
+        "typeAnnexe": "video",
+        "dateDebut": "2024-09",
+        "dateFin": "2024-10",
+        "langages": [
+            {"langage": "html_logo.png"},
+            {"langage": "css_logo.png"},
+            {"langage": "javascript_logo.png"}
         ],
-        "problemes" : [
+        "problemes": [
             {  
-                "probleme" : "Prise en main de WebPack, bundler qui permet de compiler et optimiser des fichiers JavaScript (et autres ressources) en un seul fichier. Un tout nouvel environnement pour moi assez complexe à prendre en main au début.",
-                "solution" : "Lire la documentation et regarder des tutos, afin de mieux cerner les attentes de WebPack"
+                "probleme": "Prise en main de WebPack, un bundler permettant de compiler et d'optimiser des fichiers JavaScript (et autres ressources) en un seul fichier. Un environnement tout nouveau pour moi, assez complexe au début.",
+                "solution": "Lire la documentation et regarder des tutoriels pour mieux comprendre les attentes de WebPack"
             }
         ]
     }

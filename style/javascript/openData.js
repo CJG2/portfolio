@@ -94,6 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
         problemsTable.appendChild(tbody);
         modalContent.appendChild(problemsTable);
     
+        /*
         // Ajouter un lien si disponible
         if (project.lien !== "null") {
             const link = createElement('a', 'project-link', 'Aller sur www.my-little-creations.com');
@@ -101,7 +102,8 @@ document.addEventListener("DOMContentLoaded", function() {
             link.target = "_blank";
             modalContent.appendChild(link);
         }
-    
+        */
+       
         // Ajouter les boutons de navigation "Suivant" et "Précédent"
         const modalNav = createElement('div', 'modal-nav');
         const prevButton = createElement('button', 'nav-button', '<');

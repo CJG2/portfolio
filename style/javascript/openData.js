@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
             modalContent.appendChild(link);
         }
         */
-       
+          
         // Ajouter les boutons de navigation "Suivant" et "Précédent"
         const modalNav = createElement('div', 'modal-nav');
         const prevButton = createElement('button', 'nav-button', '<');

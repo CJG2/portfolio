@@ -114,24 +114,26 @@
         "idProject": 5,
         "name": "Jeu vidéo d'aventure en Python - Nautilus",
         "type": "Projet Personnel",
-        "description": "",
+        "description": "Nautilus est un jeu d'aventure où un naufragé doit survivre, explorer une île hostile et trouver un moyen de s’échapper avant l’arrivée de nouveaux dangers.",
         "lien": null,
         "annexe": "Nautilus_video.mp4",
         "typeAnnexe": "video",
         "dates": "Juin 2024 - Non fini",
         "langages": [
             {"langage": "python_logo.png"},
+            {"langage": "pygame_logo.png"},
             {"langage": "tiled_logo.png"}
         ],
         "problemes": [
             {  
                 "probleme": "Problèmes de collisions",
-                "solution": "Je me suis rendu compte après un certain temps que c'était lié à une mauvaise gestion des claques Tiled"
+                "solution": "Je me suis rendu compte après un certain temps que c'était lié à une mauvaise gestion des calques Tiled et j'ai corrigé en réorganisant la structure des calques."
             },
             {  
-                "probleme": "Il manque quelques intéractions, comme couper du bois, miner de la pierre, cueiller de la nourriture, ajouter des PNG et des monstres",
-                "solution": ""
+                "probleme": "Il manque des interactions clés (couper du bois, miner de la pierre, cueillir de la nourriture), ainsi que des ennemis et animations supplémentaires",
+                "solution": "En cours d’implémentation avec des ajouts progressifs basés sur des feedbacks."
             }
         ]
     }
+    
 ]

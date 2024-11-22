@@ -41,11 +41,11 @@ document.addEventListener("DOMContentLoaded", function() {
         modalContent.appendChild(projectName);
 
         // Ajouter les détails du projet dans la modale
-        const type = createElement('p', 'project-type', `${project.type}`);
+        const type = createElement('h2', 'project-type', `${project.type}`);
         modalContent.appendChild(type);
 
         // Ajout de la date du projet
-        const projectDate = createElement('h2', 'project-dates', `${project.dates}`);
+        const projectDate = createElement('p', 'project-dates', `${project.dates}`);
         modalContent.appendChild(projectDate);
     
         const description = createElement('p', 'project-description', project.description.replace('\\n', '<br/>'));

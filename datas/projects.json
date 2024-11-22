@@ -121,7 +121,6 @@
         "dates": "Juin 2024 - Non fini",
         "langages": [
             {"langage": "python_logo.png"},
-            {"langage": "pygame_logo.png"},
             {"langage": "tiled_logo.png"}
         ],
         "problemes": [

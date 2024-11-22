@@ -7,8 +7,7 @@
         "lien": null,
         "annexe": "Agenda_video.mp4",
         "typeAnnexe": "video",
-        "dateDebut": "2023-10",
-        "dateFin": "2024-01",
+        "dates": "Octobre 2023 - Janvier 2024",
         "langages": [
             {"langage": "c++_logo.png"},
             {"langage": "html_logo.png"},
@@ -38,8 +37,7 @@
         "lien": null,
         "annexe": "Screen_MLC_2.png",
         "typeAnnexe": "img",
-        "dateDebut": "2023-12",
-        "dateFin": "2024-07",
+        "dates": "Décembre 2023 - Juillet 2024",
         "langages": [
             {"langage": "html_logo.png"},
             {"langage": "css_logo.png"},
@@ -73,8 +71,7 @@
         "lien": null,
         "annexe": "EZCook_video.mp4",
         "typeAnnexe": "video",
-        "dateDebut": "2024-04",
-        "dateFin": "2024-06",
+        "dates": "Avril 2024 - Juin 2024",
         "langages": [
             {"langage": "c++_logo.png"},
             {"langage": "Qt_logo.png"},
@@ -100,8 +97,7 @@
         "lien": null,
         "annexe": "EZFood_video.mp4",
         "typeAnnexe": "video",
-        "dateDebut": "2024-09",
-        "dateFin": "2024-10",
+        "dates": "Octobre 2024",
         "langages": [
             {"langage": "html_logo.png"},
             {"langage": "css_logo.png"},
@@ -111,6 +107,30 @@
             {  
                 "probleme": "Prise en main de WebPack, un bundler permettant de compiler et d'optimiser des fichiers JavaScript (et autres ressources) en un seul fichier. Un environnement tout nouveau pour moi, assez complexe au début.",
                 "solution": "Lire la documentation et regarder des tutoriels pour mieux comprendre les attentes de WebPack"
+            }
+        ]
+    },
+    {
+        "idProject": 5,
+        "name": "Jeu vidéo d'aventure en Python - Nautilus",
+        "type": "Projet Personnel",
+        "description": "",
+        "lien": null,
+        "annexe": "Nautilus_video.mp4",
+        "typeAnnexe": "video",
+        "dates": "Juin 2024 - Non fini",
+        "langages": [
+            {"langage": "python_logo.png"},
+            {"langage": "tiled_logo.png"}
+        ],
+        "problemes": [
+            {  
+                "probleme": "Problèmes de collisions",
+                "solution": "Je me suis rendu compte après un certain temps que c'était lié à une mauvaise gestion des claques Tiled"
+            },
+            {  
+                "probleme": "Il manque quelques intéractions, comme couper du bois, miner de la pierre, cueiller de la nourriture, ajouter des PNG et des monstres",
+                "solution": ""
             }
         ]
     }

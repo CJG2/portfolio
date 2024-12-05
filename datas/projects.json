@@ -131,8 +131,31 @@
             {  
                 "probleme": "Il manque des interactions clés (couper du bois, miner de la pierre, cueillir de la nourriture), ainsi que des ennemis et animations supplémentaires",
                 "solution": "En cours d’implémentation avec des ajouts progressifs basés sur des feedbacks."
+            },
+            {  
+                "probleme": "Manque de temps",
+                "solution": "Essayer de 'grappiller' du temps libre pour avancer"
             }
         ]
-    }
-    
+    },
+    {
+        "idProject": 6,
+        "name": "Application de gestion d'album de musique en Java",
+        "type":"Projet - BUT Informatique",
+        "description": "Ce logiciel permet de gérer une collection d'albums de musique avec une interface graphique. Il est possible d'ajouter un album, d'en supprimer, de modifier, de consulter, et de sauvegarder. Il est possible d'effectuer une recherche par titre, par artiste, par date, par genre. Lors de la consultation, on pourra trier les résultats par titre d'albums, par artiste, par date, par genre. J'ai utilisé une base de donnéeshébergée sur un serveur (AlwaysData).",
+        "lien": null,
+        "annexe": "SoundifyApp_video.mp4",
+        "typeAnnexe": "video",
+        "dates": "Novembre 2024 - Décembre 2024",
+        "langages": [
+            {"langage": "java_logo.png"},
+            {"langage": "postgre_logo.png"}
+        ],
+        "problemes": [
+            {  
+                "probleme": "Aucun problèmes, une vrai partie de plaisir !",
+                "solution": "N/A"
+            }
+        ]
+    } 
 ]

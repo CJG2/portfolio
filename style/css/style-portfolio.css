@@ -21,7 +21,7 @@
 
 .project-button {
     display: block;
-    width: 300px; 
+    width: 30%;
     font-size: 20px; 
     font-weight: bold;
     color: #ffffff;
@@ -36,7 +36,7 @@
 
 .project-button:hover {
     background-color: #077710;
-    flex: 3;
+    transform: scale(1.1);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     transition: 0.5s;
 }

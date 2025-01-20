@@ -114,7 +114,7 @@
         "idProject": 5,
         "name": "Jeu vidéo d'aventure en Python - Nautilus",
         "type": "Projet Personnel",
-        "description": "Nautilus est un jeu d'aventure où un naufragé doit survivre, explorer une île hostile et trouver un moyen de s’échapper avant l’arrivée de nouveaux dangers.",
+        "description": "Nautilus est un jeu d'aventure où un naufragé doit survivre, explorer une île hostile et trouver un moyen de s'échapper avant l'arrivée de nouveaux dangers.",
         "lien": null,
         "annexe": "Nautilus_video.mp4",
         "typeAnnexe": "video",
@@ -130,7 +130,7 @@
             },
             {  
                 "probleme": "Il manque des interactions clés (couper du bois, miner de la pierre, cueillir de la nourriture), ainsi que des ennemis et animations supplémentaires",
-                "solution": "En cours d’implémentation avec des ajouts progressifs basés sur des feedbacks."
+                "solution": "En cours d'implémentation avec des ajouts progressifs basés sur des feedbacks."
             },
             {  
                 "probleme": "Manque de temps",
@@ -155,6 +155,33 @@
             {  
                 "probleme": "Aucun problèmes, une vrai partie de plaisir !",
                 "solution": "N/A"
+            }
+        ]
+    },
+    {
+        "idProject": 7,
+        "name": "Application d'apprentissage de la lecture et de l'écriture pour les enfants",
+        "type": "SAE",
+        "description": "Dans le cadre de cette SAE, nous devions, en équipe de cinq sous la méthodologie Scrum, réaliser une application visant à aider les enfants entrant en école primaire à apprendre à lire. J'occupais le rôle de Product Owner. Nous devions prendre en compte les éventuelles difficultés d'attention des enfants. L'application devait proposer des exercices ludiques et intégrer une progression, que ce soit dans une fonctionnalité précise ou dans l'application globale.",
+        "lien": null,
+        "annexe": "leRoyaumeDesLettres_video.mp4",
+        "typeAnnexe": "video",
+        "dates": "Septembre 2024 - Janvier 2025",
+        "langages": [
+            {"langage": "html_logo.png"},
+            {"langage": "css_logo.png"},
+            {"langage": "javascript_logo.png"},
+            {"langage": "node.js_logo.png"},
+            {"langage": "mysql_logo.png"}
+        ],
+        "problemes": [
+            {  
+                "probleme": "Panne de GitLab, l'outil de collaboration de code, survenue en décembre, trois semaines avant le rendu final.",
+                "solution": "Nous avons dû trouver une solution rapide pour permettre à tous les membres de l'équipe de continuer à travailler en attendant la réparation de GitLab. Nous avons opté pour Bitbucket."
+            },
+            {
+                "probleme": "Manque de formation sur la création de serveurs Node.js et leur liaison avec une base de données pour insérer, supprimer ou modifier des éléments depuis l'application.",
+                "solution": "Je me suis chargé de la partie backend de l'application en suivant des tutoriels sur la création d'un serveur Node.js, puis en consultant la documentation pour intégrer la base de données avec le serveur."
             }
         ]
     } 

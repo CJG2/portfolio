@@ -98,16 +98,6 @@ document.addEventListener("DOMContentLoaded", function() {
         problemsTable.appendChild(tbody);
         modalContent.appendChild(problemsTable);
     
-        /*
-        // Ajouter un lien si disponible
-        if (project.lien !== "null") {
-            const link = createElement('a', 'project-link', 'Aller sur www.my-little-creations.com');
-            link.href = project.lien;
-            link.target = "_blank";
-            modalContent.appendChild(link);
-        }
-        */
-          
         // Ajouter les boutons de navigation "Suivant" et "Précédent"
         const modalNav = createElement('div', 'modal-nav');
         const prevButton = createElement('button', 'nav-button', '<');
@@ -169,7 +159,6 @@ document.addEventListener("DOMContentLoaded", function() {
         // Afficher la fenêtre modale
         modal.style.display = 'block';
     }
-    
 
     // Fonction pour fermer la modale
     function closeModal() {
@@ -189,8 +178,59 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 
     // Charger le fichier JSON et afficher les projets
-    fetch(jsonFilePath)
-        .then(response => response.json())
-        .then(data => displayProjects(data))
-        .catch(error => console.error('Erreur lors du chargement du fichier JSON:', error));
+fetch('https://cjg2.github.io/portfolio/datas/projects.json')
+.then(response => response.json())
+.then(data => {
+    // Récupérer l'élément <select>
+    const selectLangages = document.getElementById("langage-select");
+
+    // Ajouter un événement lorsque l'utilisateur sélectionne un langage
+    selectLangages.addEventListener("change", function() {
+        // Réinitialiser la liste des projets affichés
+        const portfolioSection = document.getElementById('portfolio');
+        portfolioSection.innerHTML = ""; // Effacer la liste des projets avant de la mettre à jour
+
+        // Obtenir la valeur sélectionnée du <select>
+        const selectedLanguage = selectLangages.value;
+
+        if (selectedLanguage === "") {
+            // Si "Tous les langages" est sélectionné, afficher tous les projets
+            displayProjects(data);
+        } else {
+            // Filtrer les projets en fonction du langage sélectionné
+            const filteredProjects = data.filter(project => {
+                // Vérifier si l'un des langages du projet correspond exactement au langage sélectionné
+                return project.langages.some(lang => {
+                    // Extraire le nom du langage sans le suffixe "_logo.png"
+                    const languageName = lang.langage.split('_')[0].toLowerCase(); // "html" from "html_logo.png"
+                    return languageName === selectedLanguage.toLowerCase(); // Comparaison exacte
+                });
+            });
+
+            // Afficher les projets filtrés
+            displayProjects(filteredProjects); // Afficher les projets filtrés
+        }
+    });
+})
+.catch(error => console.error('Erreur lors du chargement du fichier JSON:', error));
+
 });
+
+// Fonction fetchProjets intégrée (copiée de script1.js)
+async function fetchProjets(langage) {
+    const response = await fetch('./datas/projects.json');
+    const projets = await response.json();
+
+    const nomLangage = langage + '_logo.png';
+    const idProjet = [];
+    
+    for (let i = 0; i < projets.length; i++) {
+        for (let j = 0; j < projets[i].langages.length; j++) {
+            if (projets[i].langages[j].langage == nomLangage) {
+                idProjet.push(projets[i].idProject);
+            }
+        }
+    }
+
+    return idProjet; // Retourne les ID des projets correspondants
+}

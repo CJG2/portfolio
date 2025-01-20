@@ -13,6 +13,11 @@ document.addEventListener('DOMContentLoaded', function() {
         copierTexteDansPressePapier(copy2.textContent);
     });
 
+    const linkedin_link = document.querySelector("#linkedInPerso");
+    linkedin_link.addEventListener('click', () => {
+        window.open('https://www.linkedin.com/in/carlos-guillermo-gomez-827bb727b/', '_blank');
+    });
+
     const instagramPerso = document.querySelector("#instagramPerso");
     instagramPerso.addEventListener('click', () => {
         window.open('https://www.instagram.com/cguillermo18/', '_blank');

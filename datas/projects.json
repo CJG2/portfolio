@@ -9,10 +9,10 @@
         "typeAnnexe": "video",
         "dates": "Octobre 2023 - Janvier 2024",
         "langages": [
-            {"langage": "c++_logo.png"},
-            {"langage": "html_logo.png"},
-            {"langage": "css_logo.png"},
-            {"langage": "bash_logo.png"}
+            { "langage": "c++_logo.png" },
+            { "langage": "html_logo.png" },
+            { "langage": "css_logo.png" },
+            { "langage": "bash_logo.png" }
         ],
         "problemes": [
             {  
@@ -39,10 +39,11 @@
         "typeAnnexe": "img",
         "dates": "Décembre 2023 - Juillet 2024",
         "langages": [
-            {"langage": "html_logo.png"},
-            {"langage": "css_logo.png"},
-            {"langage": "javascript_logo.png"},
-            {"langage": "json_logo.png"}
+            { "langage": "html_logo.png" },
+            { "langage": "css_logo.png" },
+            { "langage": "javascript_logo.png" },
+            { "langage": "node.js_logo.png" },
+            { "langage": "postgresql_logo.png" }
         ],
         "problemes": [
             {
@@ -73,10 +74,10 @@
         "typeAnnexe": "video",
         "dates": "Avril 2024 - Juin 2024",
         "langages": [
-            {"langage": "c++_logo.png"},
-            {"langage": "Qt_logo.png"},
-            {"langage": "json_logo.png"},
-            {"langage": "xml_logo.png"}
+            { "langage": "c++_logo.png" },
+            { "langage": "Qt_logo.png" },
+            { "langage": "json_logo.png" },
+            { "langage": "xml_logo.png" }
         ],
         "problemes": [
             {  
@@ -99,9 +100,10 @@
         "typeAnnexe": "video",
         "dates": "Octobre 2024",
         "langages": [
-            {"langage": "html_logo.png"},
-            {"langage": "css_logo.png"},
-            {"langage": "javascript_logo.png"}
+            { "langage": "html_logo.png" },
+            { "langage": "css_logo.png" },
+            { "langage": "javascript_logo.png" },
+            { "langage": "api_logo.png" }
         ],
         "problemes": [
             {  
@@ -120,8 +122,8 @@
         "typeAnnexe": "video",
         "dates": "Juin 2024 - Non fini",
         "langages": [
-            {"langage": "python_logo.png"},
-            {"langage": "tiled_logo.png"}
+            { "langage": "python_logo.png" },
+            { "langage": "tiled_logo.png" }
         ],
         "problemes": [
             {  
@@ -148,8 +150,8 @@
         "typeAnnexe": "video",
         "dates": "Novembre 2024 - Décembre 2024",
         "langages": [
-            {"langage": "java_logo.png"},
-            {"langage": "postgre_logo.png"}
+            { "langage": "java_logo.png" },
+            { "langage": "postgresql_logo.png" }
         ],
         "problemes": [
             {  
@@ -168,11 +170,11 @@
         "typeAnnexe": "video",
         "dates": "Septembre 2024 - Janvier 2025",
         "langages": [
-            {"langage": "html_logo.png"},
-            {"langage": "css_logo.png"},
-            {"langage": "javascript_logo.png"},
-            {"langage": "node.js_logo.png"},
-            {"langage": "mysql_logo.png"}
+            { "langage": "html_logo.png" },
+            { "langage": "css_logo.png" },
+            { "langage": "javascript_logo.png" },
+            { "langage": "node.js_logo.png" },
+            { "langage": "mysql_logo.png" }
         ],
         "problemes": [
             {  

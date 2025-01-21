@@ -98,21 +98,25 @@
                     <img src="./media/img/icones/icone_portfolio.png" alt="portfolio">
                 </div>
 
-                <div id="filterProjectByLanguages">
+                <div id="filterProjectByLanguages" class="pres-categ">
                     <label for="language-select">Vous pouvez filtrer mes projets par langage de programmation utilisé !</label>
-                    <select id="langage-select" class="langagesProg" name="langages">
-                        <option value="" selected>--Tous les langages--</option>
-                        <option value="HTML">HTML</option>
-                        <option value="CSS">CSS</option>
-                        <option value="JavaScript">Javascript</option>
-                        <option value="PostgreSQL">PostgreSQL</option>
-                        <option value="MySQL">MySQL</option>
-                        <option value="Node.js">Node.js</option>
-                        <option value="Python">Python</option>
-                        <option value="Java">Java</option>
-                        <option value="C++">C++</option>
-                        <option value="QT">QT</option>
-                    </select>
+                    <div id="filter-select-result">
+                        <select id="langage-select" class="langagesProg" name="langages">
+                            <option selected>Sélectionnez un langage</option>
+                            <option value="">--Tous les langages--</option>
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JavaScript">Javascript</option>
+                            <option value="PostgreSQL">PostgreSQL</option>
+                            <option value="MySQL">MySQL</option>
+                            <option value="Node.js">Node.js</option>
+                            <option value="Python">Python</option>
+                            <option value="Java">Java</option>
+                            <option value="C++">C++</option>
+                            <option value="QT">QT</option>
+                        </select>
+                        <p id ="filterProjectMessage"></p>
+                    </div>
                 </div>
 
                 <section id="portfolio">
@@ -179,7 +183,7 @@
                             </td>
                             <td>
                                 <div>
-                                    <img src="./media/img/logos/postgre_logo.png" class="lang-logos">
+                                    <img src="./media/img/logos/postgresql_logo.png" class="lang-logos">
                                     <p>Postgre SQL</p>
                                 </div>
                                 <p class="exp-lang">

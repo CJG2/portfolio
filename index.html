@@ -97,6 +97,28 @@
                     <h2>Portfolio</h2>
                     <img src="./media/img/icones/icone_portfolio.png" alt="portfolio">
                 </div>
+
+                <div id="filterProjectByLanguages" class="pres-categ">
+                    <label for="language-select">Vous pouvez filtrer mes projets par langage de programmation utilisé !</label>
+                    <div id="filter-select-result">
+                        <select id="langage-select" class="langagesProg" name="langages">
+                            <option selected>Sélectionnez un langage</option>
+                            <option value="">--Tous les langages--</option>
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JavaScript">Javascript</option>
+                            <option value="PostgreSQL">PostgreSQL</option>
+                            <option value="MySQL">MySQL</option>
+                            <option value="Node.js">Node.js</option>
+                            <option value="Python">Python</option>
+                            <option value="Java">Java</option>
+                            <option value="C++">C++</option>
+                            <option value="QT">QT</option>
+                        </select>
+                        <p id ="filterProjectMessage"></p>
+                    </div>
+                </div>
+
                 <section id="portfolio">
                     <!-- Liste des projets réalisés à partir du .json -->
                 </section>
@@ -161,20 +183,11 @@
                             </td>
                             <td>
                                 <div>
-                                    <img src="./media/img/logos/postgre_logo.png" class="lang-logos">
+                                    <img src="./media/img/logos/postgresql_logo.png" class="lang-logos">
                                     <p>Postgre SQL</p>
                                 </div>
                                 <p class="exp-lang">
                                     PostgreSQL est un système de gestion de base de données relationnelle (SGBDR) open source, robuste et hautement extensible. Il prend en charge les fonctionnalités avancées de SQL, ce qui en fait un choix populaire pour les applications nécessitant une manipulation complexe des données. 
-                                </p>
-                            </td>
-                            <td>
-                                <div>
-                                    <img src="./media/img/logos/bash_logo.png" class="lang-logos">
-                                    <p>Bash</p>
-                                </div>
-                                <p class="exp-lang">
-                                    Bash est un langage de commande et de script utilisé principalement dans les systèmes Unix/Linux pour automatiser des tâches et gérer des processus. Il permet d'exécuter des commandes, manipuler des fichiers, et créer des scripts complexes grâce à ses structures de contrôle comme les boucles et les conditions.
                                 </p>
                             </td>
                             <td>
@@ -189,10 +202,10 @@
                             <td>
                                 <div>
                                     <img src="./media/img/logos/Qt_logo.png" class="lang-logos">
-                                    <p>QT Creator</p>
+                                    <p>QT</p>
                                 </div>
                                 <p class="exp-lang">
-                                    QT Creator est un environnement de développement intégré conçu pour créer des applications multiplateformes, principalement en C++ et utilisant le framework Qt. Il offre des outils de conception graphique, de débogage et de gestion de projet pour faciliter le développement d'applications sur des systèmes comme Windows, macOS, Linux, et Android.
+                                    Qt est une API orientée objet et développée en C++, conjointement par The Qt Company et Qt Project. Qt offre des composants d'interface graphique (widgets), d'accès aux données, de connexions réseaux, de gestion des fils d'exécution, d'analyse XML, etc.
                                 </p>
                             </td>
                             <td>
@@ -202,6 +215,24 @@
                                 </div>
                                 <p class="exp-lang">
                                     Java est un langage de programmation et une plate-forme de calcul lancé par Sun Microsystems en 1995. Depuis ses débuts modestes, Java a beaucoup évolué. A l'heure actuelle, une grande partie du monde numérique dépend de Java : de nombreux services et applications reposent sur cette plate-forme fiable. 
+                                </p>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./media/img/logos/node.js_logo.png" class="lang-logos">
+                                    <p>Node.js</p>
+                                </div>
+                                <p class="exp-lang">
+                                    Node.js est une plateforme de développement Javascript. Ce n'est pas un serveur, ce n'est pas un framework, c'est juste le langage Javascript avec des bibliothèques permettant de réaliser des actions comme écrire sur la sortie standard, ouvrir/fermer des connections réseau ou encore créer un fichier.
+                                </p>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./media/img/logos/mysql_logo.png" class="lang-logos">
+                                    <p>MySQL</p>
+                                </div>
+                                <p class="exp-lang">
+                                    MySQL est un système de gestion de bases de données relationnelles (SGBDR). Il est distribué sous une double licence GPL et propriétaire. Il fait partie des logiciels de gestion de base de données les plus utilisés au monde, autant par le grand public (applications web principalement) que par des professionnels, en concurrence avec Oracle, PostgreSQL et Microsoft SQL Server.
                                 </p>
                             </td>
                             
@@ -297,7 +328,7 @@
                             <td id="linkedInPerso">
                                 <img alt="linkedIn" src="./media/img/logos/LinkedIn_logo.webp" class="img-contact">
                                 <p id="copier3">
-                                    @cguillermo18
+                                    Carlos Guillermo Gomez
                                 </p>
                             </td>
                         </tr>

@@ -93,17 +93,20 @@ document.addEventListener("DOMContentLoaded", function() {
             case 'Postgre SQL':
                 level = 80;
                 break;
-            case 'Bash':
-                level = 54;
+            case 'MySQL':
+                level = 80;
                 break;
             case 'JavaScript':
-                level = 73;
+                level = 85;
                 break;
-            case 'QT Creator':
-                level = 68;
+            case 'QT':
+                level = 65;
                 break;
             case 'Java':
                 level = 70;
+                break;
+            case 'Node.js':
+                level = 75;
                 break;
             default:
                 level = 50; // Niveau par défaut si le langage n'est pas trouvé

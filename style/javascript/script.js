@@ -37,11 +37,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // PARTIE JAUGE POUR LES COMPETENCES -------------------------
     
     var niveauxCompetence = {
-        competence1: 0.75,   //workteam
-        competence2: 0.85,   //leadership
-        competence3: 0.82,  //organisation
-        competence4: 0.8,   //polyvalence
-        competence5: 0.75,   //responsable
+        competence1: 0.8,   //workteam
+        competence2: 0.95,   //leadership
+        competence3: 0.85,  //organisation
+        competence4: 0.78,   //polyvalence
+        competence5: 0.82,   //responsable
         competence6: 0.9   //discipline
     };
 

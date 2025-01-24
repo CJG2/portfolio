@@ -154,3 +154,39 @@
     transition: 0.3s;
 }
 
+#filterProjectByLanguages {
+    display: flex;
+    flex-direction: column;
+}
+
+#filterProjectByLanguages #langage-select {
+    width: 80%;
+    height: 50px;
+    max-width: 400px;
+    text-align: center;
+    border: 2px solid #0ac219;
+    cursor: pointer;
+    border-radius: 20px 0 0 20px;
+}
+
+#filterProjectByLanguages #filter-select-result {
+    min-width: fit-content;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #777;
+    padding-bottom: 10px;;
+}
+
+#filterProjectMessage {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #0ac219;
+    color: white;
+    width: fit-content;
+    padding: 0 10px;
+    border-radius: 0 20px 20px 0;
+}

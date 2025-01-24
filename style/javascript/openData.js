@@ -176,8 +176,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     };
 
-    // Charger le fichier JSON et afficher les projets
-    fetch('./../../datas/projects.json')
+    /*
+    mettre '/datas/projects.json' lorsque je l'envoi dans le serveur
+    mettre './../../datas/projects.json' lorsque je l'envoi en local
+    */
+    fetch('/datas/projects.json') 
         .then(response => response.json())
         .then(data => {
             // Récupérer l'élément <select>

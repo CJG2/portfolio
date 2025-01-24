@@ -108,6 +108,12 @@ document.addEventListener("DOMContentLoaded", function() {
             case 'Node.js':
                 level = 75;
                 break;
+            case 'React':
+                level = 60;
+                break;
+            case 'PHP':
+                level = 70;
+                break;
             default:
                 level = 50; // Niveau par défaut si le langage n'est pas trouvé
         }

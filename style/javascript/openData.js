@@ -177,7 +177,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     // Charger le fichier JSON et afficher les projets
-    fetch('/portfolio/datas/projects.json')
+    fetch('./../../datas/projects.json')
         .then(response => response.json())
         .then(data => {
             // Récupérer l'élément <select>

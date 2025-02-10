@@ -1,6 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
-            
-    
+document.addEventListener('DOMContentLoaded', function () {
+
     const numeroTelephone = document.querySelector("#numeroTelephone");
     var copy1 = document.querySelector("#copier1");
     numeroTelephone.addEventListener('click', () => {
@@ -22,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     instagramPerso.addEventListener('click', () => {
         window.open('https://www.instagram.com/cguillermo18/', '_blank');
     });
-    
+
     function copierTexteDansPressePapier(texte) {
         var elementTemporaire = document.createElement('textarea');
         elementTemporaire.value = texte;
@@ -32,35 +31,37 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.removeChild(elementTemporaire);
         alert('Elément copié avec succès');
     }
-    
-    
-    // PARTIE JAUGE POUR LES COMPETENCES -------------------------
-    
+
+    // PARTIE ÉTOILES POUR LES COMPÉTENCES -------------------------
     var niveauxCompetence = {
-        competence1: 0.8,   //workteam
-        competence2: 0.95,   //leadership
-        competence3: 0.85,  //organisation
-        competence4: 0.78,   //polyvalence
-        competence5: 0.82,   //responsable
-        competence6: 0.9   //discipline
+        competence1: 4,   // workteam
+        competence2: 5,   // leadership
+        competence3: 4.5, // organisation
+        competence4: 4.5, // polyvalence
+        competence5: 5,   // responsable
+        competence6: 5    // discipline
     };
 
-    function normaliserNiveau(niveau) {
-        return Math.min(Math.max(niveau, 0), 1);
-    }
-    
-    Object.keys(niveauxCompetence).forEach(function(competence) {
-        var jauge = document.getElementById(competence);
-        if (jauge) {
-            var niveau = normaliserNiveau(niveauxCompetence[competence]);
-            jauge.style.width = (niveau * 100) + '%';
-            jauge.style.backgroundColor = getColorForSkillLevel(niveau);
+    Object.keys(niveauxCompetence).forEach(function (competence) {
+        var container = document.getElementById(competence);
+        if (container) {
+            var niveau = niveauxCompetence[competence];
+            container.innerHTML = renderStars(niveau);
         }
     });
 
-    function getColorForSkillLevel(niveau) {
-        var hue = niveau * 120; 
-        return 'hsl(' + hue + ', 100%, 50%)'; 
+    function renderStars(niveau) {
+        const maxStars = 5;
+        let starsHtml = '';
+        for (let i = 1; i <= maxStars; i++) {
+            if (i <= Math.floor(niveau)) {
+                starsHtml += '<span class="star full">★</span>';
+            } else if (i - niveau < 1) {
+                starsHtml += '<span class="star half">☆</span>'; // Option pour demi-étoiles
+            } else {
+                starsHtml += '<span class="star empty">☆</span>';
+            }
+        }
+        return starsHtml;
     }
-
 });

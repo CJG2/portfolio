@@ -60,13 +60,7 @@
     padding: 0 20px;
     background-color: #fff;
     border-radius: 20px;
-    width: 70%;
-}
-
-.jauge {  
-    width: 100%;
-    height: 15px;
-    background-color: #f0f0f0;
+    width: 45%;
 }
 
 .remplissage {  
@@ -76,12 +70,13 @@
 .nom-competences {  
     width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #333;
 }
 
 .nom-competences h4{  
-    width: 20%;
+    max-width: 40%;
     margin: 15px 0;
 }
 
@@ -126,6 +121,20 @@
     font-size: 18px;
     margin: 10px 0;
 }
+
+.star {
+    color: gold;
+    font-size: 1.5rem;
+    margin-right: 0.2rem;
+}
+.star.empty {
+    color: lightgray;
+}
+.star.half {
+    color: gold;
+    opacity: 0.5;
+}
+
 
 .gauge-container {
     display: flex;

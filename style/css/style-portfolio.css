@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
 /* PORTFOLIO ---------------------------------------------*/
 
 .project-name {   
@@ -20,6 +25,7 @@
 }
 
 .project-button {
+    font-family: Outfit, Calibri, sans-serif;
     display: block;
     width: 30%;
     font-size: 20px; 

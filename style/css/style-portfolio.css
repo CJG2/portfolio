@@ -163,6 +163,7 @@
 #filterProjectByLanguages {
     display: flex;
     flex-direction: column;
+    /*color: #f0f0f0;*/
 }
 
 #filterProjectByLanguages #langage-select {

@@ -156,5 +156,27 @@
                 "solution": "Je me suis chargé de la partie backend de l'application en suivant des tutoriels sur la création d'un serveur Node.js, puis en consultant la documentation pour intégrer la base de données avec le serveur."
             }
         ]
+    },
+    {
+        "idProject": 8,
+        "name": "Application mobile pour des parents d'élèves d'une école maternelle",
+        "type": "Projet - BUT Informatique",
+        "description": "Le but de ce projet est de créer une application pour smartphone à destination de parents d'élèves, permettant à une école maternelle de leur communiquer des informations. Cette école fictive s’appellera « Le petit prince », elle comporte 3 classes, petits, moyens et grands. Les parents pourront se connecter à l'application via un login et un mot de passe, qui leur permettra de voir les informations générales de l'école et les informations de la classe de leur enfant.",
+        "lien": null,
+        "annexe": "lePetitPrince_video.mp4",
+        "typeAnnexe": "video",
+        "dates": "Mars 2025",
+        "langages": [
+            { "langage": "ionic_logo.png" },
+            { "langage": "angular_logo.png" },
+            { "langage": "typescript_logo.png" },
+            { "langage": "api_logo.png" }
+        ],
+        "problemes": [
+            {  
+                "probleme": "Aucun problèmes, une vrai partie de plaisir !",
+                "solution": "N/A"
+            }
+        ]
     } 
 ]

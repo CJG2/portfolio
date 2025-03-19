@@ -55,11 +55,11 @@ document.addEventListener('DOMContentLoaded', function () {
         let starsHtml = '';
         for (let i = 1; i <= maxStars; i++) {
             if (i <= Math.floor(niveau)) {
-                starsHtml += '<span class="star full">★</span>';
+                starsHtml += '<i class="iconeEtoileCompetences bi bi-star-fill"></i>';
             } else if (i - niveau < 1) {
-                starsHtml += '<span class="star half">☆</span>'; // Option pour demi-étoiles
+                starsHtml += '<i class="iconeEtoileCompetences bi bi-star-half"></i>'; // Option pour demi-étoiles
             } else {
-                starsHtml += '<span class="star empty">☆</span>';
+                starsHtml += '<i class="iconeEtoileCompetences bi bi-star"></i>';
             }
         }
         return starsHtml;

@@ -122,20 +122,6 @@
     margin: 10px 0;
 }
 
-.star {
-    color: gold;
-    font-size: 1.5rem;
-    margin-right: 0.2rem;
-}
-.star.empty {
-    color: lightgray;
-}
-.star.half {
-    color: gold;
-    opacity: 0.5;
-}
-
-
 .gauge-container {
     display: flex;
     width: 100%;
@@ -176,4 +162,10 @@
 #divForInformation {
     display: flex;
     align-items: center;
+}
+
+.iconeEtoileCompetences {
+    color: gold;
+    font-size: 1.5rem;
+    margin: 1px;
 }

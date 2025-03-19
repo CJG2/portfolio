@@ -1,34 +1,4 @@
-[
-    {
-        "idProject": 1,
-        "name": "Agenda sur le Terminal",
-        "type": "SAE",
-        "description": "Le but de cette SAÉ était de créer une sorte d'application de calendrier dans le terminal. Ce calendrier devait être codé en C++, et il devait proposer à son démarrage plusieurs fonctionnalités :\n Regarder s'il y avait un agenda déjà présent dans le dossier actuel.\n Dès son lancement, l'agenda propose ce menu :\n Afficher les événements présents dans le calendrier\n Renommer un événement\n Ajouter un événement\n Supprimer un événement\n Exporter l'agenda en HTML\n Enregistrer l'agenda\n Quitter",
-        "lien": null,
-        "annexe": "Agenda_video.mp4",
-        "typeAnnexe": "video",
-        "dates": "Octobre 2023 - Janvier 2024",
-        "langages": [
-            { "langage": "c++_logo.png" },
-            { "langage": "html_logo.png" },
-            { "langage": "css_logo.png" },
-            { "langage": "bash_logo.png" }
-        ],
-        "problemes": [
-            {  
-                "probleme": "Manque d'expérience en langage C++",
-                "solution": "Lire la documentation, regarder des tutoriels et des cours sur YouTube"
-            },
-            {  
-                "probleme": "Le temps imparti",
-                "solution": "Si on est mal organisé, le projet était impossible à réaliser, mais ce n'était pas mon cas !"
-            },
-            {  
-                "probleme": "Recommencement du projet à partir de zéro",
-                "solution": "Ayant énormément d'erreurs, j'ai décidé de tout recommencer pour repartir sur de bonnes bases"
-            }
-        ]
-    },  
+[  
     {
         "idProject": 2,
         "name": "Site internet de vente de produits artisanaux",

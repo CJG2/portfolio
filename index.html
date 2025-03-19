@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio en ligne de Carlos Guillermo Gomez, étudiant en informatique et passionné par le développement web en HTML, CSS, JavaScript, React et Node.js. Découvrez mon portfolio avec des projets innovants et des solutions performantes.">
         <title>&lt;!DOCTYPE portfolio&gt;</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link rel="stylesheet" href="style/css/style-aPropos.css">
         <link rel="stylesheet" href="style/css/style-portfolio.css">
         <link rel="stylesheet" href="style/css/style-competences.css">
@@ -29,10 +30,10 @@
                 </div>
                 <div class="liste">
                     <ul class="navigation" id="navigation">
-                        <li><a href="#a-propos">À propos</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#competences">Compétences</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#a-propos"><i class="iconeBootstrap bi bi-person-fill"></i> À propos</a></li>
+                        <li><a href="#portfolio"><i class="iconeBootstrap bi-file-earmark-person-fill"></i> Portfolio</a></li>
+                        <li><a href="#competences"><i class="iconeBootstrap bi-star-fill"></i> Compétences</a></li>
+                        <li><a href="#contact"><i class="iconeBootstrap bi-envelope-open-fill"></i> Contact</a></li>
                     </ul>
                 </div>
                 <div class="hamburger-menu" id="hamburger">
@@ -54,7 +55,7 @@
             <section>
                 <div class="haut-categ">
                     <h2>À propos de moi</h2>
-                    <img src="./media/img/icones/icone_mySelf.png" alt="icone">
+                    <i class="iconeBootstrap bi bi-person-fill"></i>
                 </div>
                 <div class="a-propos">
                     <img src="././media/img/photo.JPG" class="myself" alt="Photo de présentation">
@@ -88,7 +89,7 @@
                         </ul>
 
                         <p>Je recherche actuellement une alternance en informatique pour le mois de septembre 2025, ci-dessous mon CV !</p>
-                        <a id="CV_download" href="datas/CV_GuillermoGomez.pdf" download="CV_GuillermoGomez.pdf">Télécharger mon CV<img src="./media/img/icones/icone_portfolio_white.png"/></a>
+                        <a id="CV_download" href="datas/CV_GuillermoGomez.pdf" download="CV_GuillermoGomez.pdf"><i class="iconeBootstrap bi-download"></i> Télécharger mon CV</i></a>
                     </div>
                 </div>
 
@@ -98,7 +99,7 @@
             <section id="section-portfolio">
                 <div class="haut-categ">
                     <h2>Portfolio</h2>
-                    <img src="./media/img/icones/icone_portfolio.png" alt="portfolio">
+                    <i class="iconeBootstrap bi-file-earmark-person-fill"></i>
                 </div>
 
                 <div id="filterProjectByLanguages" class="pres-categ">
@@ -138,7 +139,7 @@
             <section id="competences">
                 <div class="haut-categ">
                     <h2>Compétences</h2>
-                    <img src="./media/img/icones/icone_comp.png" alt="icone">
+                    <i class="iconeBootstrap bi-star-fill"></i>
                 </div>
                 <div class="pres-categ">
                     Elles sont en constante amélioration, car pour moi, la joie de ce métier réside dans le fait que l'on en apprend tous les jours, d’autant plus en étant impliqué, curieux et passionné !<br>
@@ -177,15 +178,6 @@
                             </td>
                             <td>
                                 <div>
-                                    <img src="./media/img/logos/c++_logo.png" class="lang-logos">
-                                    <p>C++</p>
-                                </div>
-                                <p class="exp-lang">
-                                    C++ est un langage de programmation polyvalent et puissant, largement utilisé pour le développement de logiciels système, d'applications de bureau, de jeux vidéo, de logiciels embarqués et bien plus encore. Il offre un support pour la programmation orientée objet, la programmation générique et la programmation procédurale. C++ est connu pour sa performance, sa flexibilité et sa capacité à gérer des systèmes complexes.
-                                </p>
-                            </td>
-                            <td>
-                                <div>
                                     <img src="./media/img/logos/postgresql_logo.png" class="lang-logos">
                                     <p>Postgre SQL</p>
                                 </div>
@@ -200,15 +192,6 @@
                                 </div>
                                 <p class="exp-lang">
                                     JavaScript est un langage de programmation de haut niveau, interprété et orienté objet, principalement utilisé pour créer des pages web interactives et dynamiques. Il est souvent combiné avec HTML et CSS pour créer des expériences web complètes et interactives.
-                                </p>
-                            </td>
-                            <td>
-                                <div>
-                                    <img src="./media/img/logos/Qt_logo.png" class="lang-logos">
-                                    <p>QT</p>
-                                </div>
-                                <p class="exp-lang">
-                                    Qt est une API orientée objet et développée en C++, conjointement par The Qt Company et Qt Project. Qt offre des composants d'interface graphique (widgets), d'accès aux données, de connexions réseaux, de gestion des fils d'exécution, d'analyse XML, etc.
                                 </p>
                             </td>
                             <td>
@@ -318,7 +301,7 @@
             <section id="contact">
                 <div class="haut-categ">
                     <h2>Contact</h2>
-                    <img src="./media/img/icones/icone_contact.png" alt="icone">
+                    <i class="iconeBootstrap bi-envelope-open-fill"></i>
                 </div>
 
                 <div class="pres-categ">
@@ -329,19 +312,19 @@
                     <tbody>
                         <tr>
                             <td id="numeroTelephone">
-                                <img alt="numero de telephone" src="./media/img/icones/telephone.png" class="img-contact">
+                                <i class="iconeBootstrap bi-telephone-fill"></i>
                                 <p id="copier1">+33 6 60 75 37 13</p>
                             </td>
                         </tr>
                         <tr>
                             <td id="mailPerso">
-                                <img alt="mail" src="./media/img/icones/mail.png" class="img-contact">
+                                <i class="iconeBootstrap bi-envelope-at-fill"></i>
                                 <p id="copier2">carlos.guillermogomez18@gmail.com</p>
                             </td>
                         </tr>
                         <tr>
                             <td id="linkedInPerso">
-                                <img alt="linkedIn" src="./media/img/logos/LinkedIn_logo.webp" class="img-contact">
+                                <i class="iconeBootstrap bi-linkedin"></i>
                                 <p id="copier3">
                                     Carlos Guillermo Gomez
                                 </p>
@@ -349,7 +332,7 @@
                         </tr>
                         <tr>
                             <td id="instagramPerso">
-                                <img alt="instagram" src="./media/img/logos/Instagram_logo.webp" class="img-contact">
+                                <i class="iconeBootstrap bi-instagram"></i>
                                 <p>
                                     @cguillermo18
                                 </p>

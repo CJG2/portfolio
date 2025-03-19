@@ -176,10 +176,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     };
 
-    /*
-    mettre '/portfolio/datas/projects.json' lorsque je l'envoi dans le serveur
-    mettre './../../datas/projects.json' lorsque je l'envoi en local
-    */
     fetch('/portfolio/datas/projects.json') 
         .then(response => response.json())
         .then(data => {

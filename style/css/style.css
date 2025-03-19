@@ -64,10 +64,9 @@ section .haut-categ {
     border-bottom: 2px solid #0ac219;
 }
 
-.haut-categ img{   
+.haut-categ .iconeBootstrap{   
     margin-left: 15px;
-    width: 40px;
-    height: 40px;
+    color:#0ac219;
 }
 
 .pres-categ{   
@@ -145,6 +144,11 @@ nav .navigation a:hover{
     background-color: #f0f0f0;
     margin: 4px 0;
     transition: 0.4s;
+}
+
+.iconeBootstrap {
+    margin: 5px;
+    font-size: 25px;
 }
 
 

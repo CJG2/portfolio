@@ -87,9 +87,6 @@ document.addEventListener("DOMContentLoaded", function() {
             case 'Python':
                 level = 73;
                 break;
-            case 'C++':
-                level = 69;
-                break;
             case 'Postgre SQL':
                 level = 80;
                 break;
@@ -98,9 +95,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 break;
             case 'JavaScript':
                 level = 85;
-                break;
-            case 'QT':
-                level = 65;
                 break;
             case 'Java':
                 level = 70;

@@ -101,8 +101,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Ajouter les boutons de navigation "Suivant" et "Précédent"
         const modalNav = createElement('div', 'modal-nav');
-        const prevButton = createElement('button', 'nav-button', '<');
-        const nextButton = createElement('button', 'nav-button', '>');
+        const prevButton = createElement('button');
+        prevButton.className = 'nav-button';
+        prevButton.innerHTML = '<i class="bi bi-caret-left-fill"></i> Précédent'; // ajout des icone bootstrap
+        const nextButton = createElement('button');
+        nextButton.className = 'nav-button';
+        nextButton.innerHTML = 'Suivant <i class="bi bi-caret-right-fill"></i>';// ajout des icone bootstrap
 
         // Gérer le clic sur le bouton "Précédent"
         prevButton.addEventListener('click', function () {

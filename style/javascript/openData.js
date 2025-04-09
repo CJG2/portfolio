@@ -54,6 +54,8 @@ document.addEventListener("DOMContentLoaded", function () {
         if (project.typeAnnexe === 'video') {
             const video = createElement('video', 'project-annex');
             video.src = "./media/video/" + project.annexe;
+            video.setAttribute('controls', 'controls');
+            video.textContent = 'Vidéo non disponible pour le moment.';
             video.controls = true;
             modalContent.appendChild(video);
         } else if (project.typeAnnexe === 'img') {

@@ -1,66 +1,63 @@
-[
-    {
-        "id": 1,
-        "name": "HTML",
-        "icon": "html_logo.png",
-        "description": "HTML is the standard markup language for creating Web pages.",
-        "type": "Frontend"
-    },
-    {
-        "id": 2,
-        "name": "CSS",
-        "icon": "css_logo.png",
-        "description": "CSS is a language that describes the style of an HTML document.",
-        "type": "Frontend"
-
-    },
-    {
-        "id": 3,
-        "name": "JavaScript",
-        "icon": "js_logo.png",
-        "description": "JavaScript is the programming language of HTML and the Web.",
-        "type": "Frontend"
-    },
-    {
-        "id": 4,
-        "name": "Python",
-        "icon": "python_logo.png",
-        "description": "Python is an interpreted, high-level and general-purpose programming language.",
-        "type": "Backend"
-    },
-    {
-        "id": 5,
-        "name": "Java",
-        "icon": "java_logo.png",
-        "description": "Java is a high-level, class-based, object-oriented programming language.",
-        "type": "Backend"
-    },
-    {
-        "id": 6,
-        "name": "PHP",
-        "icon": "php_logo.png",
-        "description": "PHP is a popular general-purpose scripting language that is especially suited to web development.",
-        "type": "Backend"
-    },
-    {
-        "id": 7,
-        "name": "PostGreSQL",
-        "icon": "postgresql_logo.png",
-        "description": "PostgreSQL is a powerful, open source object-relational database system.",
-        "type": "Backend"
-    },
-    {
-        "id": 8,
-        "name": "C++",
-        "icon": "c++_logo.png",
-        "description": "C++ is a general-purpose programming language created as an extension of the C programming language.",
-        "type": "Backend"
-    },
-    {
-        "id": 9,
-        "name": "React",
-        "icon": "react_logo.png",
-        "description": "React is a JavaScript library for building user interfaces.",
-        "type": "Frontend"
-    }
-]
+{
+    "frontend": [
+        {
+            "name": "HTML",
+            "icon": "html_logo.png",
+            "description": "HTML est le langage de balisage standard pour la création de pages Web."
+        },
+        {
+            "name": "CSS",
+            "icon": "css_logo.png",
+            "description": "CSS est un langage qui décrit le style d'un document HTML."
+        },
+        {
+            "name": "JavaScript",
+            "icon": "js_logo.png",
+            "description": "JavaScript est le langage de programmation du HTML et du Web."
+        },
+        {
+            "name": "Angular",
+            "icon": "angular_logo.png",
+            "description": "Angular est un framework open-source basé sur TypeScript et développé par Google. Il offre une plateforme complète pour la création d'applications Web dynamiques et monopages avec une architecture modulaire et des fonctionnalités puissantes comme l'injection de dépendances et le data binding bidirectionnel."
+        },
+        {
+            "name": "React",
+            "icon": "react_logo.png",
+            "description": "React est une bibliothèque JavaScript pour la création d'interfaces utilisateur."
+        }
+    ],
+    "backend": [
+        {
+            "name": "Python",
+            "icon": "python_logo.png",
+            "description": "Python est un langage de programmation interprété, de haut niveau et à usage général."
+        },
+        {
+            "name": "Java",
+            "icon": "java_logo.png",
+            "description": "Java est un langage de programmation orienté objet, basé sur des classes et de haut niveau."
+        },
+        {
+            "name": "PHP",
+            "icon": "php_logo.png",
+            "description": "PHP est un langage de script généraliste populaire, particulièrement adapté au développement Web."
+        },
+        {
+            "name": "C++",
+            "icon": "c++_logo.png",
+            "description": "C++ est un langage de programmation généraliste créé comme une extension du langage C."
+        },
+        {
+            "name": "Node.js",
+            "icon": "node.js_logo.png",
+            "description": "Node.js est un environnement d'exécution JavaScript basé sur le moteur V8 de Chrome. Il permet aux développeurs de créer des applications backend évolutives et performantes grâce à un modèle d'E/S non bloquant et événementiel."
+        }
+    ],
+    "database": [
+        {
+            "name": "PostgreSQL",
+            "icon": "postgresql_logo.png",
+            "description": "PostgreSQL est un système de gestion de base de données relationnelle open source et puissant."
+        }
+    ]
+}

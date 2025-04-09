@@ -178,5 +178,29 @@
                 "solution": "N/A"
             }
         ]
-    } 
+    },
+    {
+        "idProject": 9,
+        "name": "Application web d'une pizzeria",
+        "type": "Stage",
+        "description": "Dans le cadre de mon stage, j'ai eu l'opportunité de travailler sur une application web pour une pizzeria. Le but était de créer un site internet permettant aux clients de passer des commandes en ligne, de consulter le menu, et de gérer les réservations. J'ai utilisé des technologies modernes pour développer cette application, en mettant l'accent sur l'expérience utilisateur et la performance.",
+        "lien": null,
+        "annexe": "octyspizzeria_video.mp4",
+        "typeAnnexe": "video",
+        "dates": "Mars 2025 - Juin 2025",
+        "langages": [
+            { "langage": "nextjs_logo.png" },
+            { "langage": "css_logo.png" },
+            { "langage": "javascript_logo.png" },
+            { "langage": "node.js_logo.png" },
+            { "langage": "postgresql_logo.png" },
+            { "langage": "jest_logo.png" }
+        ],
+        "problemes": [
+            {  
+                "probleme": "Aucune connaissance sur Next.js",
+                "solution": "J'ai dû apprendre à utiliser Next.js en suivant des tutoriels et en consultant la documentation officielle. J'ai également utilisé des ressources en ligne pour comprendre les concepts clés de ce framework. J'ai rapidement pris en main les fonctionnalités de Next.js, car il est basé sur React, que je connaissais déjà."
+            }
+        ]
+    }
 ]

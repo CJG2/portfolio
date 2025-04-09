@@ -108,6 +108,9 @@ document.addEventListener("DOMContentLoaded", function() {
             case 'PHP':
                 level = 70;
                 break;
+            case 'Angular':
+                level = 75;
+                break;
             default:
                 level = 50; // Niveau par défaut si le langage n'est pas trouvé
         }
